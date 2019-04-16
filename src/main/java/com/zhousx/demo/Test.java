@@ -15,7 +15,7 @@ public class Test {
 //        BigInteger bigSumUseAmt = new BigInteger(sumUseAmt);
         System.out.println(longBalance+transAmtChnl+"");
         System.out.println(longSumUseAmt - transAmtChnl + "");*/
-       System.out.println(BigInteger.valueOf(80_000));
+//       System.out.println(BigInteger.valueOf(80_000));
 
       /* zz();
 
@@ -24,9 +24,31 @@ public class Test {
 //            String zz = i+"";
             System.out.println(zz);
         }*/
+      String s1 = "hello";
+      String s2 = "world";
+      System.out.println(s1 + "----" + s2);
+      change(s1,s2);
+      System.out.println(s1 + "----" + s2);
+      
+      StringBuffer sb1 = new StringBuffer("hello");
+      StringBuffer sb2 = new StringBuffer("world");
+      System.out.println(sb1 + "--" + sb2);
+      change(sb1,sb2);
+      System.out.println(sb1 + "--" + sb2);
     }
     public static void zz(){
         final String zz = "fianlzz";
         System.out.println(zz);
+    }
+
+    public static void change(StringBuffer sb1, StringBuffer sb2){
+        sb1 = sb2;
+        sb2.append(sb1);
+    }
+
+    public static void change(String s1, String s2){
+        s1 = s2;
+        s2 = s1 + s2;
+        System.out.println(s1+"11"+s2);
     }
 }
