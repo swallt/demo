@@ -1,5 +1,8 @@
 package com.zhousx.demo;
 
+import com.zhousx.userbean.TLV;
+import com.zhousx.util.TLVUtil;
+
 import java.io.*;
 import java.net.Socket;
 import java.util.Scanner;
@@ -22,9 +25,22 @@ public class NetTestClient {
         while (!flag){
             System.out.println("请输入正方形的边长");
             double length = sc.nextDouble();
-
             dos.writeDouble(length);
             dos.flush();
+
+//            String data = "90000001019001000101900200010190050003333333";
+//            TLVUtil tlvUtil = new TLVUtil();
+//            TLV tlv;
+//            tlvUtil.unpack(data);
+//
+//            for(int i=0;i<tlvUtil.tlvList.size();i++)
+//            {
+//                tlv = tlvUtil.tlvList.get(i);
+//                System.out.print("   标签:["+i+"]"+"\n");
+//                System.out.print("  tag:"+tlv.getTag()+"\n");
+//                System.out.print("  len:"+tlv.getLen()+"\n");
+//                System.out.print("value:"+ tlvUtil.bytesToHex(tlv.getValue())+"\n");
+//            }
 
             double area = dis.readDouble();
 
