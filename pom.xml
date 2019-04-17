@@ -75,6 +75,13 @@
         <artifactId>lombok</artifactId>
         <version>1.16.10</version>
     </dependency>
+
+    <!--sm算法-->
+    <dependency>
+        <groupId>org.bouncycastle</groupId>
+        <artifactId>bcprov-jdk15</artifactId>
+        <version>1.45</version>
+    </dependency>
     <!-- ====================WebService CXF======================== -->
     <dependency>
         <groupId>org.apache.cxf</groupId>
