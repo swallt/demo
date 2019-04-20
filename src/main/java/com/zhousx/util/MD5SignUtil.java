@@ -1,12 +1,12 @@
 package com.zhousx.util;
 
-import java.io.UnsupportedEncodingException;
-import java.util.Map;
-
 import com.acquirer.util.MD5;
 import com.acquirer.util.MapUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.io.UnsupportedEncodingException;
+import java.util.Map;
 
 public class MD5SignUtil {
     private final static Logger logger = LoggerFactory.getLogger(com.acquirer.util.MD5SignUtil.class);

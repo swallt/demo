@@ -1,15 +1,10 @@
 package com.zhousx.demo;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.google.gson.JsonObject;
-import netscape.javascript.JSException;
-import org.json.JSONException;
-import org.json.JSONTokener;
+
+import java.util.List;
 
 class CardInfo {
     String prefix;

@@ -1,8 +1,5 @@
 package com.zhousx.demo;
 
-import com.zhousx.userbean.TLV;
-import com.zhousx.util.TLVUtil;
-
 import java.io.*;
 import java.net.Socket;
 import java.util.Scanner;

@@ -1,8 +1,5 @@
 package com.zhousx.leetcode;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * 38 报数
  */

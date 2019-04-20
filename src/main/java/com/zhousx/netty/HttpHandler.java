@@ -5,7 +5,6 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.handler.codec.http.*;
 import io.netty.util.AsciiString;
-import org.springframework.aop.ThrowsAdvice;
 
 public class HttpHandler extends SimpleChannelInboundHandler<FullHttpRequest> {  //1  声明泛型，只有msg为FullHttpRequest的消息才能进来
 

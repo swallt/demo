@@ -1,6 +1,6 @@
 package com.zhousx.demo;
 
-import com.alibaba.dubbo.common.json.JSONObject;
+import com.alibaba.fastjson.JSONObject;
 import org.apache.http.Header;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
@@ -19,7 +19,7 @@ public class HttpPostTest {
 
     }
 
-    public static boolean httpPostWithJson(JSONObject jsonObject,String url,String appId){
+    public static boolean httpPostWithJson(JSONObject jsonObject, String url, String appId){
         boolean isSuccess = false;
 
         HttpPost post = null;

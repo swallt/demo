@@ -1,13 +1,8 @@
 package com.zhousx.demo;
 
-import com.acquirer.util.DateUtil;
-
 import java.text.DateFormatSymbols;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
-import java.util.Random;
 
 public class CalendarTest {
     public static void main(String[] args){

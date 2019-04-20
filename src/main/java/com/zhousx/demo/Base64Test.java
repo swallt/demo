@@ -1,10 +1,8 @@
 package com.zhousx.demo;
 
 import sun.misc.BASE64Decoder;
-import sun.misc.BASE64Encoder;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 
 public class Base64Test {
     public static void main(String[] args) throws IOException {

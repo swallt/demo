@@ -1,7 +1,5 @@
 package com.zhousx.leetcode;
 
-import com.sun.org.apache.regexp.internal.RE;
-
 import java.util.*;
 
 /**
