@@ -87,6 +87,18 @@
         <artifactId>bcprov-jdk15</artifactId>
         <version>1.45</version>
     </dependency>
+
+    <!--commons工具-->
+    <dependency>
+        <groupId>commons-dbutils</groupId>
+        <artifactId>commons-dbutils</artifactId>
+        <version>1.6</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>RELEASE</version>
+    </dependency>
     <!-- ====================WebService CXF======================== -->
     <dependency>
         <groupId>org.apache.cxf</groupId>
