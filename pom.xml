@@ -24,11 +24,6 @@
             <artifactId>graphenej</artifactId>
             <version>0.4.2</version>
         </dependency>
-        <dependency>
-            <groupId>com.jieyi.acquirer.comp</groupId>
-            <artifactId>acquirer-util-comp</artifactId>
-            <version>0.0.4-SNAPSHOT</version>
-        </dependency>
         <!--jxl依赖-->
         <dependency>
             <groupId>net.sourceforge.jexcelapi</groupId>
