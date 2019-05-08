@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+			   http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="apple" class="com.zhousx.spring.Apple" scope="prototype"/>
+    <bean id="bananer" class="com.zhousx.spring.Banana" scope="prototype"></bean>
+
+    <bean id="fruitPlate1" class="com.zhousx.spring.FruitPlate">
+        <lookup-method name="getFreit" bean="apple"></lookup-method>
+    </bean>
+
+    <bean id="fruitPlate2" class="com.zhousx.spring.FruitPlate">
+        <lookup-method name="getFreit" bean="bananer"></lookup-method>
+    </bean>
+
+    <bean id="replace" class="com.zhousx.spring.MethodReplace"></bean>
+
+    <bean id="testBean" class="com.zhousx.spring.LookupMethodBean">
+        <replaced-method name="test" replacer="replace"></replaced-method>
+    </bean>
+
+    <bean id="lookupMethodBean" class="com.zhousx.spring.LookupMethodBean"></bean>
+</beans>
